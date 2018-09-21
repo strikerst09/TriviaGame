@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Andrew's Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav id="Header">
+        <div id="headerbox">
+            <span id="NameBox">
+                <h2 id="Name">Andrew deHaas</h2>
+            </span>
+            <span id="Links">
+                <a alt="AboutTab" href="" target="_blank">About</a> |
+                <a alt="PortfolioTab" href="" target="_blank">Portfolio</a> |
+                <a alt="ContactTab" href="" target="_blank">Contact</a>
+            </span>
+        </div>
+    </nav>
+    <h1 class="header">Andrew's Trivia Game</h1>
+    <div class="container gameBox" id="startBox">
+        <button class="btn btn-danger actionBtn" id="startButton">Start Game!</button>
+    </div>
+    <div class="container gameBox" id="questionBox">
+        <div class="row">
+            <h4 class="header" id="timerBox"></h4>
+            <div class="col8-sm" id="questions"></div>
+        </div>
+        <button class="btn btn-primary actionBtn" id="submitBtn">Submit!</button>
+    </div>
+    <div class="container gameBox" id="resultsBox">
+        <h2>You have completed the game.</h2>
+        <br>
+        <div class="col8-sm" id="resultsTotal"></div>
+        <br>
+        <button class="btn btn-success actionBtn" id="restartBtn">Restart!</button>
+    </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/app.js"></script>
+</body>
+
+</html>

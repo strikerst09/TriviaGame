@@ -1,0 +1,67 @@
+/* For the Body */
+body {
+    background-image: url("../images/marvelbackground.jpg");
+    color:#f5f5f5;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Header and navigation bar */
+.header {
+    text-align: left;    
+    padding: 20px;
+    margin-top: 24px;
+    margin-left: 12%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#Header{
+    position:fixed;
+    top:0;
+    margin:0;
+    text-align:left;
+    font-size: 30px;
+    width:100%;
+    background: #ffffff;
+    border-bottom-style:solid;
+    border-color: #cccccc;
+    flex-shrink: 0;
+    z-index: 3;
+}
+#headerbox {
+    width: 960px;
+    margin-left: 15%;
+    position: relative;
+}
+#NameBox {
+    float:left;
+    font-style:normal;
+}
+#Name {
+    font-family: Georgia, Times, Times New Roman, serif;
+    margin:0;
+    padding:10px;
+    font-size:20px;
+    background-color:#0f121f;
+    color:#ffffff;
+}
+#Links {
+    float: right;
+    padding: 10px;
+    color:#666666;
+    font-size:16px;
+    font-style:normal;
+}
+/* Start Game Button */
+.actionBtn {
+    margin-left: 15%;
+}
+/* For the question and answer areas */
+#questionBox {
+    display: none;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* For the results area */
+#resultsBox {
+    display: none;
+}
